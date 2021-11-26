@@ -6,17 +6,20 @@ body {
 textarea {
   margin: 50px 0;
   resize: vertical;
+  font-size: 18px;
 }
 button {
+  align-self: center;
+  display: flex;
+  justify-content: center;
   background-color: cornflowerblue;
+  color: aliceblue;
   width: 150px;
   height: 50px;
   border: none;
   border-radius: 10px;
-  font-size: 20px;
-  align-self: center;
+  font-size: 50px;
 }
-
 .translate {
   display: flex;
   flex-direction: column;
